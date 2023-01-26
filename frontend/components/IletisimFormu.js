@@ -119,7 +119,7 @@ const IletisimFormu = () => {
           {(errors.mesaj) && <p data-testid="error">Error: {errors.mesaj}</p>}
         </div>
 
-        {displayData && <Goruntule form={form}/>}
+        {displayData && <Goruntule form={form} />}
 
         <button>Gönder</button>
       </form>
